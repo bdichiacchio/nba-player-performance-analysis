@@ -47,6 +47,7 @@ This analysis explores historical NBA player performance using a structured set 
 - Players were ranked using the `min` method to ensure tied scores received the same (lower) rank
 - Players with a rank less than or equal to 10 were selected
 
+![Top 10 Scorers Table](visualizations/top_scorers.png)
 ---
 
 ### 5. Which colleges produced the most players averaging 20+ PPG (top 5)?
@@ -55,6 +56,7 @@ This analysis explores historical NBA player performance using a structured set 
 - Duplicates were dropped to ensure each player was only counted once
 - Ranked using the `min` method to ensure ties were included
 
+![Colleges with 20+ PPG Scorers Table](visualizations/num_20_point_scorers_colleges.png)
 ---
 
 ## Part 3 — Correlation & Visualization
@@ -79,6 +81,7 @@ This analysis explores historical NBA player performance using a structured set 
 - Correlation coefficient: 0.66 (moderate to strong positive correlation)
 - Suggests that higher scorers also tend to assist more frequently
 
+![Points vs Assists Plot](visualizations/pts_vs_ast_regression.png)
 ---
 
 ## Part 4 — Comparative Analysis
@@ -103,6 +106,7 @@ This analysis explores historical NBA player performance using a structured set 
 
 > **Note:** Career PPG were used for this test and results will vary if every season for each player was included instead
 
+![Points per Game Group Comparison](visualizations/ppg_group_comparison.png)
 ---
 
 ## Part 5 — Prediction

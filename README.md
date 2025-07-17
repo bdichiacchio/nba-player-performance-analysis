@@ -39,6 +39,7 @@ This analysis explores historical NBA player performance using a structured set 
 - A line plot shows that average scoring has varied slightly year to year, with a notable upward trend
 - For visual clarity, the y-axis does not start at 0; however, this would be reconsidered in a formal publication or presentation
 
+![Scoring Trend Line Plot](visualizations/avg_ppg_per_year.png)
 ---
 
 ### 4. Who are the top 10 scorers across all seasons?
